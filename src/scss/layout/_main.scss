@@ -1,0 +1,44 @@
+.learning{
+    // margin: 6rem;
+    &__start{
+        flex-basis: 20%;
+        figure{
+            img{
+                width: 50%;
+            }
+        }
+    }
+    &__container{
+        width: 100%;
+    }
+    &__viacontent{
+        flex-basis: 80%;
+    }
+    &__progress{
+        position: relative;
+        background-color: $color-sec ;
+        height: 4.5rem;
+        width: 100%;
+        border-style: solid;
+        border-top-color: $color-third;
+        border-left-color: $color-third;
+        border-bottom-color: $color-third;
+        border-bottom-width: .7rem;
+        border-top-width: .7rem;
+        border-left-width: .7rem;
+        // border: .7rem solid $color-third;
+        // border-radius: 1rem;
+        border-top-left-radius: 1.5rem;
+        border-bottom-left-radius: 1.5rem;
+    }
+    .progress_mobile{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: $color-progress;
+        width: 100%;
+        height: 3rem;
+        border-top-left-radius: 1.5rem;
+        border-bottom-left-radius: 1.5rem;
+    }
+}

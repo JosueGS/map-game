@@ -1,0 +1,112 @@
+/* RESET */
+
+*,*::before, *::after{
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+/* *::selection{
+    background-color: ;
+   color: ;
+} */ 
+
+body{
+    font-family: $font-first;
+    font-size: $sizeTextp2;
+    color: $color-text;
+    line-height: 0;
+    width: 100vw;
+    height: 100vh;
+    background:url($bg-prim) repeat, linear-gradient(to bottom,  #7abcff 0%,#4096ee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    /* Tamaño del scroll */
+    &::-webkit-scrollbar{
+        width: 8px;
+    }
+
+    /* Estilos barra (thumb) de scroll */
+    &::-webkit-scrollbar-thumb{
+        background: rgb(163, 163, 163);
+        border-radius: 4px;
+    }
+
+    &::-webkit-scrollbar-thumb:active{
+        background-color: #999999;
+    }
+
+    &::-webkit-scrollbar-thumb:hover{
+        background: #b3b3b3;
+        box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Estilos track de scroll */
+    &::-webkit-scrollbar-track {
+        background: #e1e1e1;
+        border-radius: 4px;
+    }
+
+    &::-webkit-scrollbar-track:hover, 
+    &::-webkit-scrollbar-track:active {
+        background: #d4d4d4;
+    }
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    line-height: $lheig1;
+}
+p{  
+    margin: 0;
+    padding: 0;
+    line-height: $lheig1;
+}
+
+a{
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: $lheig1;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button{
+    background: transparent;
+    cursor: pointer;
+    border-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+}
+
+input{
+  outline: none;
+  border-color: inherit;
+}
+
+figure{
+  margin: 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}

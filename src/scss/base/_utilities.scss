@@ -1,0 +1,51 @@
+/* MY CLASS */
+
+.container{
+    max-width: $main-maxwidth;
+    width: $container-width;
+    margin: auto;
+}
+.container_two{
+    width: 63%;
+    margin: auto;
+}
+
+.flex, .flex-v, .flex-b{
+    display: flex;
+    align-items: center;
+}
+
+.jcc{ 
+    justify-content: center;
+}
+
+.flex-v{
+    flex-direction: column;
+}
+
+.flex-b{
+    justify-content: space-between;
+}
+
+.btn_style{
+    padding: 2.2rem 6rem;
+    background-color: $color-blue;
+    color: $color-white;
+    font-size: $sizeText6;
+    border-radius: .5rem;
+}
+.orange{
+    &::before{
+        background-color: $color-orange;
+    }
+}
+.blue{
+    &::before{
+        background-color: $color-blue;
+    }
+}
+.gray{
+    &::before{
+        background-color: $color-text2;
+    }
+}

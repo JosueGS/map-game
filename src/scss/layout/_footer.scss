@@ -1,0 +1,18 @@
+.footer{
+
+    &__content{
+        justify-content: flex-end;
+        // a{
+            //     width: 13%;
+            //     display: block;
+            // }
+        }
+        &__nav{
+            justify-content: flex-end;
+            gap:2rem;
+            a{
+                width: 6%;
+                display: block;
+            }
+    }
+}

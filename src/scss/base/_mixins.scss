@@ -1,0 +1,25 @@
+  
+  @mixin bp-large($large) {
+    @media only screen and (max-width: $large) {
+      @content;
+    }
+  }
+  
+  @mixin bp-medium($medium) {
+    @media only screen and (max-width: $medium) {
+      @content;
+    }
+  }
+  
+  @mixin bp-small($small) {
+    @media only screen and (max-width: $small) {
+      @content;
+    }
+  }
+  
+  
+  @mixin font-size($size) {
+    // font-size: $size;
+    font-size: ($size / 16px) * 1rem;
+  }
+  

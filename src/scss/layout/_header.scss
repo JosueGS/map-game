@@ -1,0 +1,52 @@
+.header{
+    padding: 4rem 4rem 5rem 4rem;
+    &__ileft{
+        gap: 5rem;
+        h2{
+            background-color: $color-prim;
+            // background: rgb(255,255,255);
+            // background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(3,81,165,1) 45%, rgba(255,255,255,1) 100%);
+            text-align: center;
+            color: $color-white;
+            padding: 1.5rem 3rem;
+            border-radius: .9rem;
+            font-size: $sizeText4;
+        }
+    }
+
+    &__point{
+        background: $color-prim;
+        position: relative;
+        padding: 1.1rem 2rem;
+        border-radius: .9rem;
+        // width: 20rem;
+        figure{
+            position: absolute;
+            width: 55%;
+            top: -15px;
+            left: -24px;
+            z-index: 10;
+            // height: 4rem;
+        }
+        p{
+            color: $color-white;
+            margin-left: 2.5rem;
+
+        }
+
+        .icon__badge{
+            width: 60%;
+        }
+
+        .icon__trophy{
+            width: 83%;
+        }
+    }
+    &__nav{
+        .icon__settings{
+            img{
+                width: 33%;
+            }
+        }
+    }
+}

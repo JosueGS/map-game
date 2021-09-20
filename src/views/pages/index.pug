@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="css/styles.css")
+    title Document
+  body
+    //- img(src="./images/backgrounds/background.png", alt="")
+    section
+      header.header
+        .header__content.flex-b
+          .header__ileft.flex
+              h2 Juan Perales Robles
+              .header__point
+                figure.icon__money
+                  img(src="./images/means/moneda.png", alt="")
+                p 16,800
+              .header__point
+                figure.icon__badge
+                  img(src="./images/means/insignea.png", alt="")
+                p 0
+              .header__point
+                figure.icon__trophy
+                  img(src="./images/means/copa.png", alt="")
+                p 0
+          .header__iright
+            .header__nav
+              //- figure.icon__home
+              //-   img(src="./images/means/", alt="")
+              figure.icon__settings
+                img(src="./images/means/config.png", alt="")
+      main.learning
+        section.learning__container.flex
+          .learning__start
+            img(src="./images/means/start.png", alt="")
+          .learning__viacontent
+            .learning__progress
+              .progress_mobile
+
+      footer.footer
+        .footer__content
+          .footer__nav.flex
+            a.btn_previous
+              img(src="./images/means/map-left.png", alt="")
+            a.btn__next
+              img(src="./images/means/map-rigth.png", alt="")
+
+
+    //- <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    script(src="js/scripts-min.js") 
